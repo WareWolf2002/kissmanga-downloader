@@ -13,7 +13,7 @@ services:
       - java
       - -jar
       - /kissmanga-downloader.jar
-      - http://kissmanga.com/Manga/Shingeki-no-Kyojin
+      - https://kissmanga.com/Manga/Solo-Leveling/Ch-000---Prologue?id=480511
   selenium:
     image: "elgalu/selenium:latest"
     ports:
